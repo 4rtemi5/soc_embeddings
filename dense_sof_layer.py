@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 
-class DenseSOCLayer(tf.keras.layers.Layer):
+class DenseSOFLayer(tf.keras.layers.Layer):
     def __init__(self, features=32, **kwargs):
         super().__init__(**kwargs)
         self.features = features
